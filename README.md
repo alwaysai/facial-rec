@@ -17,6 +17,7 @@ To properly do facial encoding the goal is to create a diverse set of images
 representative of the particular person’s.  You will need a minimum of six
 images and ideally if the process can be performed over multiple days or weeks
 will create a superior  facial dataset.  You will want the faces capture in :
+    
     1. Different lighting conditions
    
     2. Times of day
