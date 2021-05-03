@@ -8,7 +8,7 @@ This application is designed to run on a alwaysai native environment
 (Windows PC or Mac) and not an edge device. To start the application at the
 command line enter:
 
-aai app start -- --name frist_last
+aai app start -- --name first_last
 
 To save an image press the k button on the computer and to exit the application
 press q button.
