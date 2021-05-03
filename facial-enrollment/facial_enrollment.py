@@ -32,7 +32,7 @@ import cv2
 
 
 def main(name):
-    """Run facail enrollment application."""
+    """Run facial enrollment application."""
     total = 0
     data_directory = os.path.abspath(os.path.join("dataset", name))
     if not os.path.isdir(data_directory):
