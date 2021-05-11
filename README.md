@@ -16,9 +16,11 @@ Deep Metric Learning helps capture Non-Linear feature structure by learning a no
 
 3. Encoding Faces - run the face images through a pre-trained network(DML) to get the 128 measurements for each face. The training process works by looking at 3 face images at a time:
 
-  a. Load a training face image of a known person
-  b. Load another picture of the same known person
-  c. Load a picture of a totally different person
+    a. Load a training face image of a known person
+    
+    b. Load another picture of the same known person
+    
+    c. Load a picture of a totally different person
   
 Then the algorithm looks at the measurements it is currently generating for each of those three images. It then tweaks the neural network slightly so that it makes sure the measurements it generates for image 1 and image 2 (same person) are slightly closer while making sure the measurements for image 2 and image 3 (different people) are slightly further apart
 
