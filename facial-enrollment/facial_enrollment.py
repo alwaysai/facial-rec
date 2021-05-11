@@ -55,7 +55,6 @@ def main(name):
             # Allow webcam to warm up
             time.sleep(2.0)
 
-
             # loop detection
             while True:
                 frame = webcam.read()
