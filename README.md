@@ -27,3 +27,33 @@ This repository leverages face_detection package from Adam Geitgey to do the fac
 Then the algorithm looks at the measurements it is currently generating for each of those three images. It then tweaks the neural network slightly so that it makes sure the measurements it generates for image 1 and image 2 (same person) are slightly closer while making sure the measurements for image 2 and image 3 (different people) are slightly further apart
 
 4. Take the measurements from a new image you want to identify and compare to measurements of  known persons and find the label of the closest match to identify the person
+
+## Requirements
+To run the scripts in this repository you will need to have an alwaysAI user account.  Its free and powerful way to do Python and CV development.  You don't need to worry about building virtual environments or where you run the program.   
+* [alwaysAI account](https://alwaysai.co/auth?register=true)
+* [alwaysAI Development Tools](https://alwaysai.co/docs/get_started/development_computer_setup.html)
+
+## Usage
+Once the alwaysAI tools are installed on your development machine (or edge device if developing directly on it) you can install and run the app with the following CLI commands in each sub directors :
+
+To perform initial configuration of the app:
+```
+aai app configure
+```
+
+To prepare the runtime environment and install app dependencies:
+```
+aai app install
+```
+
+To start the app:
+```
+aai app start
+```
+
+To change the computer vision model, the engine and accelerator, and add additional dependencies read [this guide](https://alwaysai.co/docs/application_development/configuration_and_packaging.html).
+
+## Support
+* [Documentation](https://alwaysai.co/docs/)
+* [Community Discord](https://discord.gg/alwaysai)
+* Email: support@alwaysai.co
